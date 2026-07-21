@@ -1,0 +1,972 @@
+[
+  {
+    "name": "Complete Blood Count (CBC)",
+    "category": "Hematology",
+    "lab": "Apollo Diagnostics",
+    "price": "₹499",
+    "duration": "8 hrs",
+    "rating": 4.8,
+    "preparation": "Fasting for 8-12 hours required. Avoid alcohol 24h before. Inform about any medications.",
+    "description": "CBC measures red blood cells, white blood cells, hemoglobin, and platelets. Helps detect anemia, infections, and blood disorders."
+  },
+  {
+    "name": "Hemogram",
+    "category": "Hematology",
+    "lab": "Thyrocare",
+    "price": "₹599",
+    "duration": "8 hrs",
+    "rating": 4.7,
+    "preparation": "No special preparation. Stay hydrated.",
+    "description": "Hemogram is a complete blood picture including RBC, WBC, platelet count, and differential leukocyte count."
+  },
+  {
+    "name": "Hemoglobin (Hb)",
+    "category": "Hematology",
+    "lab": "Dr. Lal PathLabs",
+    "price": "₹299",
+    "duration": "6 hrs",
+    "rating": 4.7,
+    "preparation": "No fasting needed. Avoid heavy meals before test.",
+    "description": "Measures hemoglobin levels in blood. Low levels indicate anemia, high levels may indicate polycythemia."
+  },
+  {
+    "name": "Erythrocyte Sedimentation Rate (ESR)",
+    "category": "Hematology",
+    "lab": "Metropolis",
+    "price": "₹199",
+    "duration": "4 hrs",
+    "rating": 4.6,
+    "preparation": "No special preparation.",
+    "description": "ESR measures inflammation in the body. Elevated levels may indicate infection, autoimmune disease, or cancer."
+  },
+  {
+    "name": "Peripheral Smear (MP) - Malaria Parasite",
+    "category": "Hematology",
+    "lab": "SRL Diagnostics",
+    "price": "₹399",
+    "duration": "6 hrs",
+    "rating": 4.7,
+    "preparation": "No special preparation.",
+    "description": "Microscopic examination of blood to detect malaria parasites. Used when malaria is suspected."
+  },
+  {
+    "name": "Red Blood Cell Count (RBC)",
+    "category": "Hematology",
+    "lab": "Apollo Diagnostics",
+    "price": "₹249",
+    "duration": "5 hrs",
+    "rating": 4.8,
+    "preparation": "No fasting required.",
+    "description": "Counts the number of red blood cells. Low count indicates anemia, high count may indicate polycythemia."
+  },
+  {
+    "name": "White Blood Cell Count (WBC)",
+    "category": "Hematology",
+    "lab": "Dr. Lal PathLabs",
+    "price": "₹249",
+    "duration": "5 hrs",
+    "rating": 4.8,
+    "preparation": "No fasting required.",
+    "description": "Measures total white blood cells. High count indicates infection/inflammation, low count may indicate bone marrow issues."
+  },
+  {
+    "name": "Platelet Count",
+    "category": "Hematology",
+    "lab": "Thyrocare",
+    "price": "₹199",
+    "duration": "4 hrs",
+    "rating": 4.7,
+    "preparation": "No preparation needed.",
+    "description": "Counts platelets – essential for blood clotting. Low count increases bleeding risk."
+  },
+  {
+    "name": "Hematocrit (HCT)",
+    "category": "Hematology",
+    "lab": "Metropolis",
+    "price": "₹299",
+    "duration": "6 hrs",
+    "rating": 4.6,
+    "preparation": "No fasting needed.",
+    "description": "Percentage of blood volume occupied by red blood cells. Helps diagnose anemia or polycythemia."
+  },
+  {
+    "name": "Mean Corpuscular Volume (MCV)",
+    "category": "Hematology",
+    "lab": "Apollo Diagnostics",
+    "price": "₹249",
+    "duration": "5 hrs",
+    "rating": 4.8,
+    "preparation": "No special preparation.",
+    "description": "Average size of red blood cells. Helps classify anemia as microcytic, normocytic, or macrocytic."
+  },
+  {
+    "name": "Mean Corpuscular Hemoglobin (MCH)",
+    "category": "Hematology",
+    "lab": "Apollo Diagnostics",
+    "price": "₹249",
+    "duration": "5 hrs",
+    "rating": 4.8,
+    "preparation": "No preparation needed.",
+    "description": "Average amount of hemoglobin per red blood cell. Low MCH indicates hypochromic anemia."
+  },
+  {
+    "name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+    "category": "Hematology",
+    "lab": "Apollo Diagnostics",
+    "price": "₹249",
+    "duration": "5 hrs",
+    "rating": 4.8,
+    "preparation": "No special preparation.",
+    "description": "Average concentration of hemoglobin in red blood cells. Helps differentiate anemia types."
+  },
+  {
+    "name": "Red Cell Distribution Width (RDW)",
+    "category": "Hematology",
+    "lab": "Metropolis",
+    "price": "₹299",
+    "duration": "6 hrs",
+    "rating": 4.6,
+    "preparation": "No preparation required.",
+    "description": "Measures variation in red blood cell size. High RDW indicates mixed anemia or early iron deficiency."
+  },
+  {
+    "name": "Absolute Neutrophil Count (ANC)",
+    "category": "Hematology",
+    "lab": "Thyrocare",
+    "price": "₹349",
+    "duration": "7 hrs",
+    "rating": 4.7,
+    "preparation": "No fasting needed.",
+    "description": "Count of neutrophils, a type of white blood cell. Low ANC increases infection risk (neutropenia)."
+  },
+  {
+    "name": "Absolute Eosinophil Count",
+    "category": "Hematology",
+    "lab": "Thyrocare",
+    "price": "₹349",
+    "duration": "7 hrs",
+    "rating": 4.7,
+    "preparation": "No special preparation.",
+    "description": "Measures eosinophils – high counts indicate allergies, asthma, or parasitic infections."
+  },
+  {
+    "name": "Reticulocyte Count",
+    "category": "Hematology",
+    "lab": "SRL Diagnostics",
+    "price": "₹399",
+    "duration": "8 hrs",
+    "rating": 4.8,
+    "preparation": "No preparation needed.",
+    "description": "Measures young red blood cells. Helps evaluate bone marrow response to anemia."
+  },
+  {
+    "name": "Coagulation Profile",
+    "category": "Hematology",
+    "lab": "Metropolis",
+    "price": "₹899",
+    "duration": "12 hrs",
+    "rating": 4.9,
+    "preparation": "Inform if on blood thinners. No fasting required.",
+    "description": "Assesses blood clotting ability. Includes PT, aPTT, INR. Used before surgery or for bleeding disorders."
+  },
+  {
+    "name": "Prothrombin Time (PT)",
+    "category": "Hematology",
+    "lab": "Apollo Diagnostics",
+    "price": "₹399",
+    "duration": "6 hrs",
+    "rating": 4.8,
+    "preparation": "No fasting needed. Inform about warfarin or other anticoagulants.",
+    "description": "Measures time taken for blood to clot. Used to monitor warfarin therapy and liver disease."
+  },
+  {
+    "name": "Activated Partial Thromboplastin Time (aPTT)",
+    "category": "Hematology",
+    "lab": "Apollo Diagnostics",
+    "price": "₹399",
+    "duration": "6 hrs",
+    "rating": 4.8,
+    "preparation": "No special preparation.",
+    "description": "Measures intrinsic clotting pathway. Used to monitor heparin therapy and detect hemophilia."
+  },
+  {
+    "name": "International Normalized Ratio (INR)",
+    "category": "Hematology",
+    "lab": "Dr. Lal PathLabs",
+    "price": "₹449",
+    "duration": "6 hrs",
+    "rating": 4.8,
+    "preparation": "No fasting needed.",
+    "description": "Standardized measure of PT. Used to monitor warfarin therapy. Target INR 2-3 for most conditions."
+  },
+  {
+    "name": "D-Dimer",
+    "category": "Hematology",
+    "lab": "Metropolis",
+    "price": "₹799",
+    "duration": "10 hrs",
+    "rating": 4.9,
+    "preparation": "No special preparation.",
+    "description": "Detects blood clot breakdown products. Elevated in DVT, pulmonary embolism, or DIC."
+  },
+  {
+    "name": "Fibrinogen Level",
+    "category": "Hematology",
+    "lab": "Apollo Diagnostics",
+    "price": "₹699",
+    "duration": "8 hrs",
+    "rating": 4.8,
+    "preparation": "No fasting required.",
+    "description": "Measures fibrinogen, a protein needed for clot formation. Low levels cause bleeding disorders."
+  },
+  {
+    "name": "Iron Deficiency Profile",
+    "category": "Hematology",
+    "lab": "Apollo Diagnostics",
+    "price": "₹899",
+    "duration": "12 hrs",
+    "rating": 4.8,
+    "preparation": "Fasting for 8 hours recommended.",
+    "description": "Includes serum iron, TIBC, ferritin, transferrin saturation. Diagnoses iron deficiency anemia."
+  },
+  {
+    "name": "Vitamin B12 & Folate",
+    "category": "Hematology",
+    "lab": "Thyrocare",
+    "price": "₹799",
+    "duration": "10 hrs",
+    "rating": 4.8,
+    "preparation": "Fasting for 8 hours recommended.",
+    "description": "Measures B12 and folate levels. Deficiency causes megaloblastic anemia and neurological issues."
+  },
+  {
+    "name": "Ferritin",
+    "category": "Hematology",
+    "lab": "SRL Diagnostics",
+    "price": "₹599",
+    "duration": "8 hrs",
+    "rating": 4.7,
+    "preparation": "Fasting not required but preferred.",
+    "description": "Measures iron storage protein. Low ferritin indicates iron deficiency; high ferritin may indicate inflammation."
+  },
+  {
+    "name": "Serum Iron",
+    "category": "Hematology",
+    "lab": "Metropolis",
+    "price": "₹449",
+    "duration": "6 hrs",
+    "rating": 4.7,
+    "preparation": "Fasting for 8 hours. Avoid iron supplements for 24h.",
+    "description": "Measures iron in blood. Abnormal levels indicate iron deficiency or overload (hemochromatosis)."
+  },
+  {
+    "name": "Total Iron Binding Capacity (TIBC)",
+    "category": "Hematology",
+    "lab": "Apollo Diagnostics",
+    "price": "₹599",
+    "duration": "8 hrs",
+    "rating": 4.8,
+    "preparation": "Fasting required for 8 hours.",
+    "description": "Measures capacity of transferrin to bind iron. High TIBC with low iron suggests iron deficiency."
+  },
+  {
+    "name": "Transferrin Saturation",
+    "category": "Hematology",
+    "lab": "Dr. Lal PathLabs",
+    "price": "₹699",
+    "duration": "10 hrs",
+    "rating": 4.8,
+    "preparation": "Fasting required.",
+    "description": "Percentage of transferrin that is saturated with iron. Low levels indicate iron deficiency."
+  },
+  {
+    "name": "Liver Function Test (LFT)",
+    "category": "Biochemistry",
+    "lab": "Metropolis",
+    "price": "₹799",
+    "duration": "10 hrs",
+    "rating": 4.9,
+    "preparation": "Fasting for 8-12 hours. Avoid alcohol for 24h.",
+    "description": "Measures liver enzymes (ALT, AST, ALP), bilirubin, proteins. Screens for liver damage or disease."
+  },
+  {
+    "name": "SGPT/ALT",
+    "category": "Biochemistry",
+    "lab": "Apollo Diagnostics",
+    "price": "₹299",
+    "duration": "6 hrs",
+    "rating": 4.7,
+    "preparation": "Fasting for 8 hours.",
+    "description": "Alanine aminotransferase – enzyme released during liver cell injury. High levels indicate hepatitis or liver damage."
+  },
+  {
+    "name": "SGOT/AST",
+    "category": "Biochemistry",
+    "lab": "Apollo Diagnostics",
+    "price": "₹299",
+    "duration": "6 hrs",
+    "rating": 4.7,
+    "preparation": "Fasting for 8 hours.",
+    "description": "Aspartate aminotransferase – found in liver, heart, muscle. Elevated in liver disease or muscle injury."
+  },
+  {
+    "name": "Alkaline Phosphatase (ALP)",
+    "category": "Biochemistry",
+    "lab": "Thyrocare",
+    "price": "₹349",
+    "duration": "6 hrs",
+    "rating": 4.7,
+    "preparation": "Fasting for 8 hours.",
+    "description": "Enzyme in liver, bone, intestine. High levels suggest bile duct blockage or bone disorders."
+  },
+  {
+    "name": "Gamma-Glutamyl Transferase (GGT)",
+    "category": "Biochemistry",
+    "lab": "SRL Diagnostics",
+    "price": "₹399",
+    "duration": "6 hrs",
+    "rating": 4.8,
+    "preparation": "Fasting for 8 hours. Avoid alcohol for 24h.",
+    "description": "Liver enzyme sensitive to alcohol use. Elevated in alcoholic liver disease and bile duct problems."
+  },
+  {
+    "name": "Total Bilirubin",
+    "category": "Biochemistry",
+    "lab": "Metropolis",
+    "price": "₹249",
+    "duration": "5 hrs",
+    "rating": 4.7,
+    "preparation": "Fasting for 4 hours.",
+    "description": "Measures total bilirubin – high levels cause jaundice. Indicates liver or gallbladder issues."
+  },
+  {
+    "name": "Direct Bilirubin",
+    "category": "Biochemistry",
+    "lab": "Metropolis",
+    "price": "₹249",
+    "duration": "5 hrs",
+    "rating": 4.7,
+    "preparation": "No special preparation.",
+    "description": "Conjugated bilirubin. Elevated in obstructive jaundice (gallstones, tumors)."
+  },
+  {
+    "name": "Indirect Bilirubin",
+    "category": "Biochemistry",
+    "lab": "Dr. Lal PathLabs",
+    "price": "₹299",
+    "duration": "5 hrs",
+    "rating": 4.7,
+    "preparation": "No special preparation.",
+    "description": "Unconjugated bilirubin. High levels in hemolytic anemia or Gilbert's syndrome."
+  },
+  {
+    "name": "Total Protein",
+    "category": "Biochemistry",
+    "lab": "Apollo Diagnostics",
+    "price": "₹199",
+    "duration": "4 hrs",
+    "rating": 4.6,
+    "preparation": "Fasting for 8 hours.",
+    "description": "Measures total protein (albumin + globulin). Abnormal levels indicate liver, kidney, or nutritional disorders."
+  },
+  {
+    "name": "Serum Albumin",
+    "category": "Biochemistry",
+    "lab": "Thyrocare",
+    "price": "₹199",
+    "duration": "4 hrs",
+    "rating": 4.6,
+    "preparation": "Fasting for 8 hours.",
+    "description": "Main protein in blood. Low levels indicate liver disease, kidney disease, or malnutrition."
+  },
+  {
+    "name": "Serum Globulin",
+    "category": "Biochemistry",
+    "lab": "Metropolis",
+    "price": "₹299",
+    "duration": "6 hrs",
+    "rating": 4.7,
+    "preparation": "No fasting required.",
+    "description": "Calculated from total protein minus albumin. High globulin seen in chronic infections or multiple myeloma."
+  },
+  {
+    "name": "Albumin/Globulin Ratio",
+    "category": "Biochemistry",
+    "lab": "Apollo Diagnostics",
+    "price": "₹349",
+    "duration": "6 hrs",
+    "rating": 4.7,
+    "preparation": "Fasting for 8 hours.",
+    "description": "Ratio of albumin to globulin. Low ratio suggests liver disease or autoimmune conditions."
+  },
+  {
+    "name": "Renal Function Test (RFT)",
+    "category": "Biochemistry",
+    "lab": "SRL Diagnostics",
+    "price": "₹699",
+    "duration": "10 hrs",
+    "rating": 4.8,
+    "preparation": "Fasting for 8 hours. Avoid heavy protein meal.",
+    "description": "Includes urea, creatinine, uric acid. Evaluates kidney function and detects kidney disease."
+  },
+  {
+    "name": "Blood Urea Nitrogen (BUN)",
+    "category": "Biochemistry",
+    "lab": "Dr. Lal PathLabs",
+    "price": "₹249",
+    "duration": "5 hrs",
+    "rating": 4.7,
+    "preparation": "No fasting required.",
+    "description": "Measures urea nitrogen – waste product from protein breakdown. High levels indicate kidney dysfunction."
+  },
+  {
+    "name": "Serum Creatinine",
+    "category": "Biochemistry",
+    "lab": "Metropolis",
+    "price": "₹249",
+    "duration": "5 hrs",
+    "rating": 4.7,
+    "preparation": "Fasting for 4 hours.",
+    "description": "Waste product from muscle metabolism. Elevated creatinine indicates reduced kidney function."
+  },
+  {
+    "name": "Uric Acid",
+    "category": "Biochemistry",
+    "lab": "Apollo Diagnostics",
+    "price": "₹299",
+    "duration": "5 hrs",
+    "rating": 4.7,
+    "preparation": "Fasting for 8 hours. Avoid purine-rich foods (red meat, seafood).",
+    "description": "End product of purine metabolism. High levels cause gout and kidney stones."
+  },
+  {
+    "name": "Lipid Profile",
+    "category": "Biochemistry",
+    "lab": "Apollo Diagnostics",
+    "price": "₹699",
+    "duration": "10 hrs",
+    "rating": 4.9,
+    "preparation": "Fasting for 10-12 hours. Only water allowed.",
+    "description": "Measures total cholesterol, HDL, LDL, triglycerides. Assesses cardiovascular risk."
+  },
+  {
+    "name": "Total Cholesterol",
+    "category": "Biochemistry",
+    "lab": "Thyrocare",
+    "price": "₹299",
+    "duration": "6 hrs",
+    "rating": 4.7,
+    "preparation": "Fasting for 10 hours.",
+    "description": "Total amount of cholesterol in blood. High levels increase heart disease risk."
+  },
+  {
+    "name": "HDL Cholesterol",
+    "category": "Biochemistry",
+    "lab": "Metropolis",
+    "price": "₹349",
+    "duration": "6 hrs",
+    "rating": 4.7,
+    "preparation": "Fasting for 10 hours.",
+    "description": "Good cholesterol – helps remove excess cholesterol. Low HDL increases heart disease risk."
+  },
+  {
+    "name": "LDL Cholesterol",
+    "category": "Biochemistry",
+    "lab": "Dr. Lal PathLabs",
+    "price": "₹399",
+    "duration": "6 hrs",
+    "rating": 4.8,
+    "preparation": "Fasting for 10 hours.",
+    "description": "Bad cholesterol – deposits in arteries. High LDL is a major risk factor for heart disease."
+  },
+  {
+    "name": "Triglycerides",
+    "category": "Biochemistry",
+    "lab": "Apollo Diagnostics",
+    "price": "₹349",
+    "duration": "6 hrs",
+    "rating": 4.7,
+    "preparation": "Fasting for 10-12 hours.",
+    "description": "Type of fat in blood. High triglycerides increase risk of heart disease and pancreatitis."
+  },
+  {
+    "name": "Electrolytes Panel",
+    "category": "Biochemistry",
+    "lab": "Metropolis",
+    "price": "₹599",
+    "duration": "8 hrs",
+    "rating": 4.8,
+    "preparation": "No special preparation.",
+    "description": "Measures sodium, potassium, chloride. Detects imbalances due to dehydration, kidney disease, or medications."
+  },
+  {
+    "name": "Serum Sodium (Na+)",
+    "category": "Biochemistry",
+    "lab": "Apollo Diagnostics",
+    "price": "₹199",
+    "duration": "4 hrs",
+    "rating": 4.6,
+    "preparation": "No fasting required.",
+    "description": "Maintains fluid balance. Low sodium (hyponatremia) or high sodium (hypernatremia) cause neurological symptoms."
+  },
+  {
+    "name": "Serum Potassium (K+)",
+    "category": "Biochemistry",
+    "lab": "Apollo Diagnostics",
+    "price": "₹199",
+    "duration": "4 hrs",
+    "rating": 4.6,
+    "preparation": "No fasting required.",
+    "description": "Essential for nerve and muscle function. Abnormal levels cause arrhythmias or weakness."
+  },
+  {
+    "name": "Blood Glucose (Fasting)",
+    "category": "Biochemistry",
+    "lab": "Apollo Diagnostics",
+    "price": "₹199",
+    "duration": "4 hrs",
+    "rating": 4.6,
+    "preparation": "Fasting for 8 hours. Only water.",
+    "description": "Measures blood sugar after fasting. Used to diagnose diabetes and prediabetes."
+  },
+  {
+    "name": "Postprandial Blood Sugar (PPBS)",
+    "category": "Biochemistry",
+    "lab": "Metropolis",
+    "price": "₹199",
+    "duration": "4 hrs",
+    "rating": 4.6,
+    "preparation": "Measure 2 hours after a meal.",
+    "description": "Blood sugar after eating. Helps assess glucose control in diabetics."
+  },
+  {
+    "name": "Random Blood Sugar (RBS)",
+    "category": "Biochemistry",
+    "lab": "Thyrocare",
+    "price": "₹149",
+    "duration": "3 hrs",
+    "rating": 4.5,
+    "preparation": "No preparation needed.",
+    "description": "Blood sugar at any time. Random level >200 mg/dL suggests diabetes."
+  },
+  {
+    "name": "Glycated Hemoglobin (HbA1c)",
+    "category": "Biochemistry",
+    "lab": "Dr. Lal PathLabs",
+    "price": "₹499",
+    "duration": "8 hrs",
+    "rating": 4.9,
+    "preparation": "No fasting required.",
+    "description": "Average blood sugar over 3 months. Used to monitor diabetes control."
+  },
+  {
+    "name": "Insulin (Fasting)",
+    "category": "Biochemistry",
+    "lab": "SRL Diagnostics",
+    "price": "₹699",
+    "duration": "10 hrs",
+    "rating": 4.8,
+    "preparation": "Fasting for 10 hours.",
+    "description": "Measures insulin levels. Helps diagnose insulin resistance and type 2 diabetes."
+  },
+  {
+    "name": "C-Peptide",
+    "category": "Biochemistry",
+    "lab": "Metropolis",
+    "price": "₹799",
+    "duration": "10 hrs",
+    "rating": 4.8,
+    "preparation": "Fasting for 8 hours.",
+    "description": "Reflects insulin production. Differentiates type 1 from type 2 diabetes."
+  },
+  {
+    "name": "HOMA-IR (Insulin Resistance)",
+    "category": "Biochemistry",
+    "lab": "Apollo Diagnostics",
+    "price": "₹899",
+    "duration": "12 hrs",
+    "rating": 4.9,
+    "preparation": "Fasting for 10 hours.",
+    "description": "Calculated from fasting glucose and insulin. High score indicates insulin resistance, prediabetes."
+  },
+  {
+    "name": "C-Reactive Protein (CRP)",
+    "category": "Biochemistry",
+    "lab": "Dr. Lal PathLabs",
+    "price": "₹399",
+    "duration": "6 hrs",
+    "rating": 4.7,
+    "preparation": "No fasting required.",
+    "description": "Marker of inflammation. High CRP indicates infection, arthritis, or heart disease risk."
+  },
+  {
+    "name": "High Sensitivity CRP (hs-CRP)",
+    "category": "Biochemistry",
+    "lab": "Metropolis",
+    "price": "₹599",
+    "duration": "8 hrs",
+    "rating": 4.8,
+    "preparation": "No special preparation.",
+    "description": "More sensitive CRP used to predict cardiovascular disease risk."
+  },
+  {
+    "name": "Dengue NS1 Antigen",
+    "category": "Serology",
+    "lab": "Metropolis",
+    "price": "₹799",
+    "duration": "10 hrs",
+    "rating": 4.8,
+    "preparation": "No preparation needed.",
+    "description": "Detects dengue virus early (first 5 days of fever). Positive indicates acute dengue."
+  },
+  {
+    "name": "Dengue IgG/IgM Antibodies",
+    "category": "Serology",
+    "lab": "Apollo Diagnostics",
+    "price": "₹699",
+    "duration": "8 hrs",
+    "rating": 4.8,
+    "preparation": "No preparation needed.",
+    "description": "Detects antibodies after day 5. IgM indicates recent infection, IgG past infection."
+  },
+  {
+    "name": "COVID-19 Antigen",
+    "category": "Serology",
+    "lab": "Dr. Lal PathLabs",
+    "price": "₹499",
+    "duration": "6 hrs",
+    "rating": 4.7,
+    "preparation": "Nasal swab – no special prep.",
+    "description": "Rapid test for active COVID-19 infection. Positive within first 7 days of symptoms."
+  },
+  {
+    "name": "COVID-19 Antibody (IgG/IgM)",
+    "category": "Serology",
+    "lab": "Thyrocare",
+    "price": "₹599",
+    "duration": "8 hrs",
+    "rating": 4.7,
+    "preparation": "No fasting required.",
+    "description": "Detects past COVID-19 infection or vaccine response. IgG indicates immunity."
+  },
+  {
+    "name": "HIV 1&2 Antibody (Rapid)",
+    "category": "Serology",
+    "lab": "SRL Diagnostics",
+    "price": "₹399",
+    "duration": "4 hrs",
+    "rating": 4.8,
+    "preparation": "No special preparation.",
+    "description": "Screening test for HIV. Positive results need confirmation by Western Blot."
+  },
+  {
+    "name": "HBsAg (Hepatitis B Surface Antigen)",
+    "category": "Serology",
+    "lab": "Apollo Diagnostics",
+    "price": "₹399",
+    "duration": "6 hrs",
+    "rating": 4.7,
+    "preparation": "No fasting required.",
+    "description": "Detects active Hepatitis B infection. Positive indicates contagious state."
+  },
+  {
+    "name": "Anti-HBs (Hepatitis B Antibody)",
+    "category": "Serology",
+    "lab": "Dr. Lal PathLabs",
+    "price": "₹499",
+    "duration": "6 hrs",
+    "rating": 4.8,
+    "preparation": "No preparation needed.",
+    "description": "Detects immunity to Hepatitis B (after vaccination or recovery)."
+  },
+  {
+    "name": "Anti-HCV (Hepatitis C Antibody)",
+    "category": "Serology",
+    "lab": "Dr. Lal PathLabs",
+    "price": "₹699",
+    "duration": "10 hrs",
+    "rating": 4.8,
+    "preparation": "No special preparation.",
+    "description": "Screening test for Hepatitis C. Positive requires RNA test to confirm active infection."
+  },
+  {
+    "name": "Widal Test (Typhoid)",
+    "category": "Serology",
+    "lab": "Dr. Lal PathLabs",
+    "price": "₹399",
+    "duration": "6 hrs",
+    "rating": 4.7,
+    "preparation": "No preparation needed.",
+    "description": "Detects antibodies against Salmonella typhi. Used to diagnose typhoid fever."
+  },
+  {
+    "name": "Malaria Antigen (Pf/Pv)",
+    "category": "Serology",
+    "lab": "SRL Diagnostics",
+    "price": "₹499",
+    "duration": "6 hrs",
+    "rating": 4.7,
+    "preparation": "No preparation needed.",
+    "description": "Rapid test for malaria parasites (Plasmodium falciparum and vivax)."
+  },
+  {
+    "name": "Chikungunya IgM/IgG",
+    "category": "Serology",
+    "lab": "Apollo Diagnostics",
+    "price": "₹699",
+    "duration": "8 hrs",
+    "rating": 4.8,
+    "preparation": "No preparation.",
+    "description": "Detects chikungunya virus antibodies. IgM indicates recent infection."
+  },
+  {
+    "name": "Rheumatoid Factor (RF)",
+    "category": "Serology",
+    "lab": "SRL Diagnostics",
+    "price": "₹399",
+    "duration": "6 hrs",
+    "rating": 4.7,
+    "preparation": "No fasting required.",
+    "description": "Autoantibody found in rheumatoid arthritis and other autoimmune diseases."
+  },
+  {
+    "name": "Thyroid Profile (Total T3, T4, TSH)",
+    "category": "Immunology",
+    "lab": "Apollo Diagnostics",
+    "price": "₹699",
+    "duration": "10 hrs",
+    "rating": 4.8,
+    "preparation": "Fasting for 8 hours. Avoid biotin supplements.",
+    "description": "Evaluates thyroid function. Diagnoses hyperthyroidism or hypothyroidism."
+  },
+  {
+    "name": "Free T3 (FT3)",
+    "category": "Immunology",
+    "lab": "Dr. Lal PathLabs",
+    "price": "₹499",
+    "duration": "8 hrs",
+    "rating": 4.7,
+    "preparation": "Fasting for 8 hours.",
+    "description": "Active form of T3. High in hyperthyroidism, low in hypothyroidism."
+  },
+  {
+    "name": "Free T4 (FT4)",
+    "category": "Immunology",
+    "lab": "Metropolis",
+    "price": "₹499",
+    "duration": "8 hrs",
+    "rating": 4.7,
+    "preparation": "Fasting for 8 hours.",
+    "description": "Active thyroid hormone. Helps diagnose thyroid disorders."
+  },
+  {
+    "name": "Anti-TPO (Thyroid Peroxidase Antibody)",
+    "category": "Immunology",
+    "lab": "Thyrocare",
+    "price": "₹799",
+    "duration": "10 hrs",
+    "rating": 4.8,
+    "preparation": "No fasting required.",
+    "description": "Autoantibody in Hashimoto's thyroiditis and Graves' disease."
+  },
+  {
+    "name": "Cortisol (Morning)",
+    "category": "Immunology",
+    "lab": "Apollo Diagnostics",
+    "price": "₹699",
+    "duration": "8 hrs",
+    "rating": 4.7,
+    "preparation": "Fasting for 8 hours. Test between 8-9 AM.",
+    "description": "Stress hormone. High levels suggest Cushing's syndrome, low levels Addison's disease."
+  },
+  {
+    "name": "Prolactin",
+    "category": "Immunology",
+    "lab": "Thyrocare",
+    "price": "₹599",
+    "duration": "8 hrs",
+    "rating": 4.7,
+    "preparation": "Fasting for 8 hours. Avoid stress and breast stimulation.",
+    "description": "Hormone that stimulates milk production. High levels cause infertility or galactorrhea."
+  },
+  {
+    "name": "Follicle Stimulating Hormone (FSH)",
+    "category": "Immunology",
+    "lab": "SRL Diagnostics",
+    "price": "₹599",
+    "duration": "8 hrs",
+    "rating": 4.7,
+    "preparation": "No special preparation.",
+    "description": "Regulates menstrual cycle and sperm production. High FSH suggests menopause or testicular failure."
+  },
+  {
+    "name": "Luteinizing Hormone (LH)",
+    "category": "Immunology",
+    "lab": "Apollo Diagnostics",
+    "price": "₹599",
+    "duration": "8 hrs",
+    "rating": 4.7,
+    "preparation": "No special preparation.",
+    "description": "Triggers ovulation and testosterone production. Used in infertility evaluation."
+  },
+  {
+    "name": "Testosterone (Total)",
+    "category": "Immunology",
+    "lab": "Thyrocare",
+    "price": "₹699",
+    "duration": "10 hrs",
+    "rating": 4.8,
+    "preparation": "Fasting for 8 hours. Test in morning.",
+    "description": "Male sex hormone. Low levels cause low libido, fatigue; high levels may indicate tumors."
+  },
+  {
+    "name": "Vitamin D (25-Hydroxy)",
+    "category": "Immunology",
+    "lab": "SRL Diagnostics",
+    "price": "₹999",
+    "duration": "10 hrs",
+    "rating": 4.9,
+    "preparation": "Fasting not required.",
+    "description": "Measures vitamin D status. Deficiency causes bone pain, muscle weakness, and osteoporosis."
+  },
+  {
+    "name": "Vitamin B12",
+    "category": "Immunology",
+    "lab": "Apollo Diagnostics",
+    "price": "₹599",
+    "duration": "8 hrs",
+    "rating": 4.8,
+    "preparation": "Fasting for 8 hours.",
+    "description": "Essential for nerve function and RBC production. Deficiency causes anemia and neuropathy."
+  },
+  {
+    "name": "Folate (Serum)",
+    "category": "Immunology",
+    "lab": "Metropolis",
+    "price": "₹599",
+    "duration": "8 hrs",
+    "rating": 4.7,
+    "preparation": "Fasting for 8 hours.",
+    "description": "B vitamin needed for DNA synthesis. Deficiency causes megaloblastic anemia."
+  },
+  {
+    "name": "Autoantibody Panel (ANA)",
+    "category": "Immunology",
+    "lab": "Dr. Lal PathLabs",
+    "price": "₹1199",
+    "duration": "24 hrs",
+    "rating": 4.9,
+    "preparation": "No special preparation.",
+    "description": "Screening test for autoimmune diseases like lupus, scleroderma, and Sjogren's."
+  },
+  {
+    "name": "Urine Routine & Microscopy",
+    "category": "Clinical Pathology",
+    "lab": "Thyrocare",
+    "price": "₹249",
+    "duration": "6 hrs",
+    "rating": 4.7,
+    "preparation": "Collect first morning urine midstream in sterile container.",
+    "description": "Detects urinary tract infections, kidney disease, and diabetes via physical, chemical, and microscopic exam."
+  },
+  {
+    "name": "Urine Culture & Sensitivity",
+    "category": "Clinical Pathology",
+    "lab": "Apollo Diagnostics",
+    "price": "₹499",
+    "duration": "48 hrs",
+    "rating": 4.8,
+    "preparation": "Collect clean catch midstream urine in sterile container.",
+    "description": "Identifies bacteria causing UTI and determines effective antibiotics."
+  },
+  {
+    "name": "Stool Routine & Occult Blood",
+    "category": "Clinical Pathology",
+    "lab": "Metropolis",
+    "price": "₹299",
+    "duration": "8 hrs",
+    "rating": 4.6,
+    "preparation": "Avoid red meat, vitamin C, and NSAIDs for 3 days before.",
+    "description": "Detects parasites, blood, and inflammation in stool. Used for gastrointestinal disorders."
+  },
+  {
+    "name": "Semen Analysis",
+    "category": "Clinical Pathology",
+    "lab": "Dr. Lal PathLabs",
+    "price": "₹699",
+    "duration": "10 hrs",
+    "rating": 4.7,
+    "preparation": "Abstain from ejaculation for 2-5 days. Collect sample in sterile cup.",
+    "description": "Evaluates male fertility – counts sperm, motility, morphology, and volume."
+  },
+  {
+    "name": "GeneXpert MTB/RIF",
+    "category": "Clinical Pathology",
+    "lab": "Apollo Diagnostics",
+    "price": "₹1499",
+    "duration": "24 hrs",
+    "rating": 4.9,
+    "preparation": "Collect sputum sample early morning.",
+    "description": "Molecular test for tuberculosis and rifampicin resistance. Fast and accurate."
+  },
+  {
+    "name": "PSA (Prostate Specific Antigen) - Total & Free",
+    "category": "Other Advanced Tests",
+    "lab": "Thyrocare",
+    "price": "₹1099",
+    "duration": "10 hrs",
+    "rating": 4.9,
+    "preparation": "Avoid ejaculation for 48h. No DRE before test.",
+    "description": "Screens for prostate cancer. Elevated PSA may indicate cancer or benign enlargement."
+  },
+  {
+    "name": "CA 125 (Ovarian Cancer Marker)",
+    "category": "Other Advanced Tests",
+    "lab": "Metropolis",
+    "price": "₹999",
+    "duration": "10 hrs",
+    "rating": 4.9,
+    "preparation": "No special preparation.",
+    "description": "Tumor marker for ovarian cancer. Also elevated in endometriosis and pelvic inflammatory disease."
+  },
+  {
+    "name": "CEA (Carcinoembryonic Antigen)",
+    "category": "Other Advanced Tests",
+    "lab": "Dr. Lal PathLabs",
+    "price": "₹899",
+    "duration": "10 hrs",
+    "rating": 4.8,
+    "preparation": "Fasting for 8 hours.",
+    "description": "Tumor marker for colorectal, lung, and breast cancers. Used to monitor treatment response."
+  },
+  {
+    "name": "AFP (Alpha-fetoprotein)",
+    "category": "Other Advanced Tests",
+    "lab": "Apollo Diagnostics",
+    "price": "₹899",
+    "duration": "10 hrs",
+    "rating": 4.8,
+    "preparation": "Fasting for 8 hours.",
+    "description": "Tumor marker for liver cancer and germ cell tumors. Also used in prenatal screening."
+  },
+  {
+    "name": "Beta-hCG (Quantitative)",
+    "category": "Other Advanced Tests",
+    "lab": "SRL Diagnostics",
+    "price": "₹599",
+    "duration": "8 hrs",
+    "rating": 4.8,
+    "preparation": "No special preparation.",
+    "description": "Measures pregnancy hormone. Used to confirm pregnancy, detect ectopic pregnancy, or monitor miscarriage."
+  },
+  {
+    "name": "NIPT (Non-invasive Prenatal Testing)",
+    "category": "Other Advanced Tests",
+    "lab": "Dr. Lal PathLabs",
+    "price": "₹9999",
+    "duration": "72 hrs",
+    "rating": 4.9,
+    "preparation": "No special preparation.",
+    "description": "Screens for chromosomal abnormalities (Down syndrome, Edwards syndrome) using fetal DNA from mother's blood."
+  }
+]
